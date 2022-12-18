@@ -151,3 +151,41 @@ width: 650px;
     color:#1f2937;
    font-weight: 900;
 }
+
+/* Part 4*/
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882f6 ;
+    height: 100px;
+    width: 800px;
+    border-radius: 7px;
+}
+
+.call{
+    color: white;
+    font-weight: 900;
+}
+
+.sign{
+    color: white;
+    font-weight: 100;
+}
+
+.up{
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 7px;
+}
