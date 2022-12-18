@@ -1,9 +1,10 @@
 body{
     margin: 0;
-    font-family: roboto;
+    /* font-family: roboto; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 .hero{ 
@@ -79,12 +80,17 @@ button{
 
 /* Part 2 */
 
+
 .title{
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
     margin-bottom: 25px;
+}
+
+.city{
+    height:350px;
 }
 
 .nyc{
@@ -102,8 +108,46 @@ button{
     border-width: 5px;
     border-color: #3882f6;
     border-radius: 10px;
+    margin-bottom: 7px;
 }
 
 .group{
     max-width: 200px;
+}
+
+.description{
+    font-weight: 900;
+    font-style:italic ;
+}
+/* Part 3 */
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #E5E7EB; 
+   height: 350px;
+  
+}
+
+.office{
+width: 650px;
+}
+
+
+.jim{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+    color:#1f2937;
+    margin-bottom: 15px;
+}
+
+.pam{
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+   font-weight: 900;
 }
