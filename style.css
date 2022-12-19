@@ -1,10 +1,11 @@
 body{
     margin: 0;
-    /* font-family: roboto; */
+    font-family: roboto;
     min-height: 100vh;
-    display: flex;
+    /* display: flex;
+    align-items: center;
     flex-direction: column;
-    
+    width:1000px; */
 }
 
 .hero{ 
@@ -188,4 +189,14 @@ width: 650px;
     border-width: 2px;
     border-color: white;
     border-radius: 7px;
+}
+
+/* Footer */
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    height: 40px;
 }
